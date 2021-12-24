@@ -117,7 +117,7 @@ describe("fibonacciSequence", () => {
 })
 
 const fibonacciSequence = (fibonacciNumber) => {
-    if (fibonacciNumber < 2) {
+    if (fibonacciNumber <= 2) {
         return "please input a number greater than 2"
     }
     else if (fibonacciNumber > 2) {
